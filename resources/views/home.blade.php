@@ -20,7 +20,7 @@
 
   <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-school"></i> Kindergarten</a>
+    <a href="#" class="logo"> <i class="fas fa-school"></i> Elkiddy</a>
 
     <nav class="navbar">
       <a href="#home">home</a>
@@ -54,7 +54,7 @@
 
     <div class="content">
       <h3>welcome to our <span>Kindergarten</span></h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus aut, in maiores quidem </p>
+      <p>Explore the Excitement of Learning at Our Kindergarten! Providing a joyful and secure learning environment for the development of your children.</p>
       <a href="#" class="btn">learn more</a>
     </div>
 
@@ -86,8 +86,12 @@
 
       <div class="content">
         <h3>Exploring, Growing, And Thriving Together</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam amet nam distinctio sunt facilis, quia accusamus sapiente at quod iure ea commodi? Labore, culpa! Voluptates delectus magni atque suscipit earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam amet nam distinctio sunt facilis, quia accusamus sapiente at quod iure ea commodi? Labore, culpa! Voluptates delectus magni atque suscipit earum.</p>
+        <p>Uncover the Path to Personal Development and Insightful Discoveries
+          At Elkiddy, we believe in the invigorating force of education and self-discovery.
+        <p>Our commitment is to cultivate an interactive space where individuals can explore, learn, and thrive together.
+          Set apart by our unwavering dedication to excellence, we offer more than just conventional education. Our focus extends beyond academics to foster curiosity, resilience, and a passion for continuous learning in each individual.</p>
+        <p>Join us in establishing a community where the heart of the educational experience is defined by exploration, growth, and flourishing. Together, we celebrate the joy of uncovering new possibilities and the pursuit of personal excellence.</p>
+        </p>
         <a href="#" class="btn">read more</a>
       </div>
 
@@ -107,19 +111,19 @@
 
       <div class="box">
         <h3>music lessons</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
+        <p>Harmonize Your Child's Learning Journey with Melodies at Elkiddy Where Education and Music Unite in Joyful Harmony!</p>
         <img src="{{ asset('landing-page/images/education1.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>sports lessons</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
+        <p>Ignite the Spirit of Play and Fitness in Your Child's Journey at Elkiddy Where Every Sports Lesson is a Gateway to Fun, Growth, and Healthy Living!</p>
         <img src="{{ asset('landing-page/images/education2.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>drawing lessons</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
+        <p>Unleash Your Child's Creative Flourish with Drawing Lessons at Elkiddy Where Every Stroke Unveils a World of Imagination and Artistic Discovery!</p>
         <img src="{{ asset('landing-page/images/education3.png') }}" alt="">
       </div>
 
@@ -139,7 +143,7 @@
 
       <div class="box">
         <img src="{{ asset('landing-page/images/teacher1.png') }}" alt="">
-        <h3>john wright</h3>
+        <h3>Madeleine</h3>
         <p>instructor</p>
         <div class="share">
           <i class="fab fa-facebook-f"></i>
@@ -150,7 +154,7 @@
 
       <div class="box">
         <img src="{{ asset('landing-page/images/teacher2.png') }}" alt="">
-        <h3>john wright</h3>
+        <h3>Michelle</h3>
         <p>instructor</p>
         <div class="share">
           <i class="fab fa-facebook-f"></i>
@@ -161,7 +165,7 @@
 
       <div class="box">
         <img src="{{ asset('landing-page/images/teacher3.png') }}" alt="">
-        <h3>john wright</h3>
+        <h3>Rose</h3>
         <p>instructor</p>
         <div class="share">
           <i class="fab fa-facebook-f"></i>
@@ -186,42 +190,42 @@
 
       <div class="box">
         <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <h3>Academic Exploration</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities2.png') }}" alt="">
+        <h3>Social and Emotional Learning</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities3.png') }}" alt="">
+        <h3>Language and Literacy</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities4.png') }}" alt="">
+        <h3>Sports and Health</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities5.png') }}" alt="">
+        <h3>Nature and Science Exploration</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities6.png') }}" alt="">
+        <h3>Technology Integration</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities7.png') }}" alt="">
+        <h3>Creative Arts</h3>
       </div>
 
       <div class="box">
-        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
-        <h3>games and fun</h3>
+        <img src="{{ asset('landing-page/images/activities8.png') }}" alt="">
+        <h3>Music and Movement</h3>
       </div>
 
     </div>
@@ -238,33 +242,33 @@
 
     <div class="gallery-container">
 
-      <a href="images/gallery-1.jpg" class="box">
+      <a href="{{ asset('landing-page/images/gallery-1.jpg') }}" class="box">
         <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="images/gallery-2.jpg" class="box">
-        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
+      <a href="{{ asset('landing-page/images/gallery-2.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-2.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="images/gallery-3.jpg" class="box">
-        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
+      <a href="{{ asset('landing-page/images/gallery-3.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-3.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="images/gallery-4.jpg" class="box">
-        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
+      <a href="{{ asset('landing-page/images/gallery-4.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-4.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="images/gallery-5.jpg" class="box">
-        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
+      <a href="{{ asset('landing-page/images/gallery-5.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-5.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="images/gallery-6.jpg" class="box">
-        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
+      <a href="{{ asset('landing-page/images/gallery-6.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-6.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
@@ -292,15 +296,13 @@
       <div class="icons">
         <i class="fas fa-envelope"></i>
         <h3>email</h3>
-        <p>ninjashub4@gmail.com</p>
-        <p>ninjashub4@gmail.com</p>
+        <p>elkiddy@gmail.com</p>
       </div>
 
       <div class="icons">
         <i class="fas fa-phone"></i>
         <h3>phone number</h3>
-        <p>+123-456-7890</p>
-        <p>+123-456-7890</p>
+        <p>+62-896-3244-2345</p>
       </div>
 
     </div>
@@ -308,7 +310,7 @@
     <div class="row">
 
       <div class="image">
-        <img src="images/contact.gif" alt="">
+        <img src="{{ asset('landing-page/images/contact.gif') }}" alt="">
       </div>
 
       <form action="">
@@ -371,7 +373,7 @@
 
     </div>
 
-    <div class="credit"> &copy; copyright @ 2023 by <span>Elkiddy</span></div>
+    <div class="credit"> &copy; copyright @ 2024 by <span>Elkiddy</span></div>
 
   </section>
 
