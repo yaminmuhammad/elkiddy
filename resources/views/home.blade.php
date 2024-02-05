@@ -11,7 +11,7 @@
   <!-- lightgallery css cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
 </head>
 
 <body>
@@ -59,7 +59,7 @@
     </div>
 
     <div class="image">
-      <img src="images/home.png" alt="">
+      <img src="{{ asset('landing-page/images/home.png') }}" alt="">
     </div>
 
     <div class="custom-shape-divider-bottom-1684324473">
@@ -81,7 +81,7 @@
     <div class="row">
 
       <div class="image">
-        <img src="images/about us.png" alt="">
+        <img src="{{ asset('landing-page/images/about us.png') }}" alt="">
       </div>
 
       <div class="content">
@@ -108,19 +108,19 @@
       <div class="box">
         <h3>music lessons</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-        <img src="images/education1.png" alt="">
+        <img src="{{ asset('landing-page/images/education1.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>sports lessons</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-        <img src="images/education2.png" alt="">
+        <img src="{{ asset('landing-page/images/education2.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>drawing lessons</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
-        <img src="images/education3.png" alt="">
+        <img src="{{ asset('landing-page/images/education3.png') }}" alt="">
       </div>
 
     </div>
@@ -138,7 +138,7 @@
     <div class="box-container">
 
       <div class="box">
-        <img src="images/teacher1.png" alt="">
+        <img src="{{ asset('landing-page/images/teacher1.png') }}" alt="">
         <h3>john wright</h3>
         <p>instructor</p>
         <div class="share">
@@ -149,7 +149,7 @@
       </div>
 
       <div class="box">
-        <img src="images/teacher2.png" alt="">
+        <img src="{{ asset('landing-page/images/teacher2.png') }}" alt="">
         <h3>john wright</h3>
         <p>instructor</p>
         <div class="share">
@@ -160,7 +160,7 @@
       </div>
 
       <div class="box">
-        <img src="images/teacher3.png" alt="">
+        <img src="{{ asset('landing-page/images/teacher3.png') }}" alt="">
         <h3>john wright</h3>
         <p>instructor</p>
         <div class="share">
@@ -185,42 +185,42 @@
     <div class="box-container">
 
       <div class="box">
-        <img src="images/activities1.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities2.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities3.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities4.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities5.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities6.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities7.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
       <div class="box">
-        <img src="images/activities8.png" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>games and fun</h3>
       </div>
 
@@ -371,7 +371,7 @@
 
     </div>
 
-    <div class="credit"> &copy; copyright @ 2023 by <span>ninjashub</span></div>
+    <div class="credit"> &copy; copyright @ 2023 by <span>Elkiddy</span></div>
 
   </section>
 
@@ -418,7 +418,7 @@
   <!-- lightgallery cdn js link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
   <!-- custom js file link -->
-  <script src="script.js"></script>
+  <script src="{{ asset('landing-page/js/script.js') }}"></script>
 
   <script>
     lightGallery(document.querySelector('.gallery .gallery-container'));
