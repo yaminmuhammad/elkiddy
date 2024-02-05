@@ -239,32 +239,32 @@
     <div class="gallery-container">
 
       <a href="images/gallery-1.jpg" class="box">
-        <img src="images/gallery-1.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
       <a href="images/gallery-2.jpg" class="box">
-        <img src="images/gallery-2.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
       <a href="images/gallery-3.jpg" class="box">
-        <img src="images/gallery-3.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
       <a href="images/gallery-4.jpg" class="box">
-        <img src="images/gallery-4.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
       <a href="images/gallery-5.jpg" class="box">
-        <img src="images/gallery-5.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
       <a href="images/gallery-6.jpg" class="box">
-        <img src="images/gallery-6.jpg" alt="">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
