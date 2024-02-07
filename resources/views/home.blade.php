@@ -11,7 +11,9 @@
   <!-- lightgallery css cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
+  <link rel="stylesheet" href="<?php echo asset('landing-page/css/style.css'); ?>">
+
+  <!-- <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}"> -->
 </head>
 
 <body>
