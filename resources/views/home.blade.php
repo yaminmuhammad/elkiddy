@@ -11,9 +11,7 @@
   <!-- lightgallery css cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="<?= asset('landing-page/css/style.css'); ?>">
-
-  <!-- <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}"> -->
+  <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
 </head>
 
 <body>
@@ -61,7 +59,7 @@
     </div>
 
     <div class="image">
-      <img src="<?= asset('landing-page/images/home.png'); ?>" alt="">
+      <img src="{{ asset('landing-page/images/home.png') }}" alt="">
     </div>
 
     <div class="custom-shape-divider-bottom-1684324473">
@@ -83,8 +81,7 @@
     <div class="row">
 
       <div class="image">
-        <img src="<?= asset('landing-page/images/about us.png'); ?>" alt="">
-        <!-- <img src="{{ asset('landing-page/images/about us.png') }}" alt=""> -->
+        <img src="{{ asset('landing-page/images/about us.png') }}" alt="">
       </div>
 
       <div class="content">
@@ -115,20 +112,19 @@
       <div class="box">
         <h3>music lessons</h3>
         <p>Harmonize Your Child's Learning Journey with Melodies at Elkiddy Where Education and Music Unite in Joyful Harmony!</p>
-        <!-- <img src="{{ asset('landing-page/images/education1.png') }}" alt=""> -->
-        <img src="<?= asset('landing-page/images/education1.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/education1.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>sports lessons</h3>
         <p>Ignite the Spirit of Play and Fitness in Your Child's Journey at Elkiddy Where Every Sports Lesson is a Gateway to Fun, Growth, and Healthy Living!</p>
-        <img src="<?= asset('landing-page/images/education2.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/education2.png') }}" alt="">
       </div>
 
       <div class="box">
         <h3>drawing lessons</h3>
         <p>Unleash Your Child's Creative Flourish with Drawing Lessons at Elkiddy Where Every Stroke Unveils a World of Imagination and Artistic Discovery!</p>
-        <img src="<?= asset('landing-page/images/education3.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/education3.png') }}" alt="">
       </div>
 
     </div>
@@ -146,8 +142,7 @@
     <div class="box-container">
 
       <div class="box">
-        <!-- <img src="{{ asset('landing-page/images/teacher1.png') }}" alt=""> -->
-        <img src="<?= asset('landing-page/images/teacher1.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/teacher1.png') }}" alt="">
         <h3>Madeleine</h3>
         <p>instructor</p>
         <div class="share">
@@ -158,7 +153,7 @@
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/teacher2.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/teacher2.png') }}" alt="">
         <h3>Michelle</h3>
         <p>instructor</p>
         <div class="share">
@@ -169,7 +164,7 @@
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/teacher3.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/teacher3.png') }}" alt="">
         <h3>Rose</h3>
         <p>instructor</p>
         <div class="share">
@@ -194,43 +189,42 @@
     <div class="box-container">
 
       <div class="box">
-        <!-- <img src="{{ asset('landing-page/images/activities1.png') }}" alt=""> -->
-        <img src="<?= asset('landing-page/images/activities1.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities1.png') }}" alt="">
         <h3>Academic Exploration</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities2.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities2.png') }}" alt="">
         <h3>Social and Emotional Learning</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities3.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities3.png') }}" alt="">
         <h3>Language and Literacy</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities4.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities4.png') }}" alt="">
         <h3>Sports and Health</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities5.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities5.png') }}" alt="">
         <h3>Nature and Science Exploration</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities6.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities6.png') }}" alt="">
         <h3>Technology Integration</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities7.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities7.png') }}" alt="">
         <h3>Creative Arts</h3>
       </div>
 
       <div class="box">
-        <img src="<?= asset('landing-page/images/activities8.png'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/activities8.png') }}" alt="">
         <h3>Music and Movement</h3>
       </div>
 
@@ -248,34 +242,33 @@
 
     <div class="gallery-container">
 
-      <!-- <a href="{{ asset('landing-page/images/gallery-1.jpg') }}" class="box"> -->
-      <a href="<?= asset('landing-page/images/gallery-1.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-1.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-1.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-1.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="<?= asset('landing-page/images/gallery-2.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-2.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-2.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-2.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="<?= asset('landing-page/images/gallery-3.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-3.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-3.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-3.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="<?= asset('landing-page/images/gallery-4.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-4.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-4.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-4.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="<?= asset('landing-page/images/gallery-5.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-5.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-5.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-5.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
-      <a href="<?= asset('landing-page/images/gallery-6.png'); ?>" class="box">
-        <img src="<?= asset('landing-page/images/gallery-6.png'); ?>" alt="">
+      <a href="{{ asset('landing-page/images/gallery-6.jpg') }}" class="box">
+        <img src="{{ asset('landing-page/images/gallery-6.jpg') }}" alt="">
         <div class="icon"> <i class="fas fa-plus"></i></div>
       </a>
 
@@ -317,8 +310,7 @@
     <div class="row">
 
       <div class="image">
-        <!-- <img src="{{ asset('landing-page/images/contact.gif') }}" alt=""> -->
-        <img src="<?= asset('landing-page/images/contact.gif'); ?>" alt="">
+        <img src="{{ asset('landing-page/images/contact.gif') }}" alt="">
       </div>
 
       <form action="">
@@ -428,8 +420,7 @@
   <!-- lightgallery cdn js link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
   <!-- custom js file link -->
-  <!-- <script src="{{ asset('landing-page/js/script.js') }}"></script> -->
-  <script src="<?= asset('landing-page/js/script.js'); ?>"></script>
+  <script src="{{ asset('landing-page/js/script.js') }}"></script>
 
   <script>
     lightGallery(document.querySelector('.gallery .gallery-container'));
